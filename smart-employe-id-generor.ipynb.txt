@@ -15,3 +15,9 @@ employee_id = name_part + year_part + dept_part
 
 # Output
 print("Generated Employee ID:", employee_id)
+
+Enter Employee Name: Sai Kumar
+Enter Joining Year: 2025
+Enter Department Name: Automation
+
+Generated Employee ID: SAI25AUT
