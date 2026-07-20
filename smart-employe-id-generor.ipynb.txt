@@ -1,0 +1,17 @@
+# Smart Employee ID Generator
+
+# Taking inputs
+name = input("Enter Employee Name: ")
+year = input("Enter Joining Year: ")
+department = input("Enter Department Name: ")
+
+# Processing inputs
+name_part = name.replace(" ", "")[:3].upper()   # Remove spaces & take first 3 letters
+year_part = year[-2:]                           # Last 2 digits of year
+dept_part = department.replace(" ", "")[:3].upper()  # First 3 letters
+
+# Generating Employee ID
+employee_id = name_part + year_part + dept_part
+
+# Output
+print("Generated Employee ID:", employee_id)
